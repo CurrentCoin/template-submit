@@ -4,7 +4,7 @@ This repo has been created for templates to be uploaded and reviewed as pull req
 
 If you have a template you'd like to be considered for usage by CurrentCoin, please use this repo for that purpose.
 
-Please clone this repo, add your files, and upload it as a branch. Our team will then review it and contact you with our feedback.
+To do this, clone the repo, add your files, and upload it as a branch. Our team will then review it and contact you with our feedback.
 
 If you have questions or concerns, you can reach out to us on Discord or write to us at our email addresses.
 
@@ -22,8 +22,6 @@ info@currentcoin.io
 contact@currentcoin.io  
  
 # template creation
-
-We welcome all template submissions to this repo.
 
 The [brand page template](https://github.com/CurrentCoin/template-brand-page) and the [info spinner template](https://github.com/CurrentCoin/template-info-spinner) are examples of CurrentCoin templates.
 
