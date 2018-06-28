@@ -21,7 +21,7 @@ Email
 info@currentcoin.io  
 contact@currentcoin.io  
  
-* template creation
+# template creation
 
 A valid CurrentCoin template must have the following:
 
