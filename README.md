@@ -32,11 +32,11 @@ A valid CurrentCoin template must have the following:
 
 See the examples for the specifics of how the `interface.json` file is structured.
 
-To test your template within CurrentCoin Create, clone the `currentcoin-prototype` repo and put your template in the folder `web-app/src/servicePreviews` alongside the other templates.
+To test your template within CurrentCoin Create, clone the [`currentcoin-create-frontend`](https://github.com/CurrentCoin/currentcoin-create-frontend) repo and put your template in the folder `src/templates` alongside the other templates.
 
 Start the web-app by running
 
-`cd web-app`
+`cd currentcoin-create-frontend`
 
 `npm install`
 
