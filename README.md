@@ -20,7 +20,11 @@ A valid CurrentCoin template must have the following:
 - A file named `interface.json` which specifies user adjustable parameters, their type, and default values.
 - A file named `index.js` which exports a React component. This component must accept the user adjustable parameters as props. 
 
+Both of these files should be in the root directory of your template.
+
 See the examples for the specifics of how the `interface.json` file is structured.
+
+If there are no adjustable parameters, you should still include the `interface.json` file. In this case, its contents would be `{}`.
 
 To test your template within CurrentCoin Create, create a github repository for you template. For example, https://github.com/CurrentCoin/example-template.git.
 
