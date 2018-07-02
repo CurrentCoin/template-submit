@@ -13,7 +13,7 @@ contact@currentcoin.io
  
 # template creation
 
-The [brand page template](https://github.com/CurrentCoin/template-brand-page) and the [info spinner template](https://github.com/CurrentCoin/template-info-spinner) are examples of CurrentCoin templates.
+The [brand page template](https://github.com/CurrentCoin/brand-page-template) and the [info spinner template](https://github.com/CurrentCoin/info-spinner-template) are examples of CurrentCoin templates.
 
 A valid CurrentCoin template must have the following:
 
@@ -22,9 +22,17 @@ A valid CurrentCoin template must have the following:
 
 See the examples for the specifics of how the `interface.json` file is structured.
 
-To test your template within CurrentCoin Create, clone the [`currentcoin-create-frontend`](https://github.com/CurrentCoin/currentcoin-create-frontend) repo and put your template in the folder `src/templates` alongside the other templates.
+To test your template within CurrentCoin Create, create a github repository for you template. For example, https://github.com/CurrentCoin/example-template.git.
 
-Start the web-app by running
+Clone the [`currentcoin-create-frontend`](https://github.com/CurrentCoin/currentcoin-create-frontend) repo.
+
+Add your template in the folder `src/templates` alongside the other templates, by running,
+
+`cd currentcoin-create-frontend/src/templates`
+
+`git submodule add https://github.com/CurrentCoin/example-template.git`
+
+Start the web-app by running,
 
 `cd currentcoin-create-frontend`
 
