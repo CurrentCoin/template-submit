@@ -32,6 +32,8 @@ Add your template in the folder `src/templates` alongside the other templates, b
 
 `git submodule add https://github.com/CurrentCoin/example-template.git`
 
+`git submodule update --recursive --init`
+
 Start the web-app by running,
 
 `cd currentcoin-create-frontend`
